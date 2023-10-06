@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://static.wikia.nocookie.net/forgottenrealms/images/1/1a/BG3_logo_1.png/revision/latest?cb=20200910182711" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Baldur's Gate 3 - Semana do Zero ao Programador Contratado</title>
+</head>
+
+<body>
+    <section class="fog">
+        <div class="absolute-bg"></div>
+        <div class="fog-container">
+            <div class="fog-img fog-img-first"></div>
+            <div class="fog-img fog-img-second"></div>
+        </div>
+        <div class="background">
+            <main class="personagens">
+                <div class="personagem">
+                    <img class="imagem" src="./src/imagens/png-gale.png" alt="Personagem Gale">
+                    <div class="conteudo">
+                        <i class="logo"></i>
+                        <h5 class="classe-personagem">WIZARD</h5>
+                        <h2 class="nome-personagem">Gale</h2>
+                        <p class="descricao">Gale of Waterdeep is a wizard prodigy whose love for the goddess of magic
+                            made him attempt a dread feat no mortal should. Blighted by the forbidden magic of ancient
+                            Netheril, Gale strives to undo the corruption that is overtaking him and win back his
+                            goddess favour before he becomes a destroyer of worlds.</p>
+                    </div>
+                </div>
+
+                <div class="personagem">
+                    <img class="imagem" src="./src/imagens/png-laezel.png" alt="Personagem Lae'zel">
+                    <div class="conteudo">
+                        <i class="logo"></i>
+                        <h5 class="classe-personagem">FIGHTER</h5>
+                        <h2 class="nome-personagem">Lae'zel</h2>
+                        <p class="descricao">Lae'zel was raised ready for a life amongst the stars, mercilessly
+                            conquering the cosmos as a githyanki soldier. Grounded, she must deal with a world she
+                            doesn't understand, and find a way to serve her people in a plane that despises her militant
+                            kin. Will Lae'zel prove herself to Queen Vlaakith, or must she walk another path in exile?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="personagem selecionado">
+                    <img class="imagem" src="./src/imagens/png-astarion.png" alt="Personagem Astarion">
+                    <div class="conteudo">
+                        <i class="logo"></i>
+                        <h5 class="classe-personagem">ROGUE</h5>
+                        <h2 class="nome-personagem">Astarion</h2>
+                        <p class="descricao">Astarion was born in the Year of the Carrion Crow, but in the Year of
+                            Daystars, he was attacked by a group of Gurs. He was rescued by Cazador Szarr, who turned
+                            him into his vampire spawn for centuries and forced him to follow every of his sadistic
+                            orders. Free for now, Astarion will do anything to keep his life in the light and become
+                            many times more powerful than his old abuser could ever dream of being.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="personagem">
+                    <img class="imagem" src="./src/imagens/png-karlach.png" alt="Personagem Karlach">
+                    <div class="conteudo">
+                        <i class="logo"></i>
+                        <h5 class="classe-personagem">BARBARIAN</h5>
+                        <h2 class="nome-personagem">Karlach</h2>
+                        <p class="descricao">Fresh-escaped from Hell, Karlach is finally free of the archdevil Zariel -
+                            but not from the infernal engine Zariel planted in her chest. Zariel is the ruler of Avernus
+                            and forced Karlach serve as a soldier to fight the blood war for ten years. With her first
+                            taste of freedom, she is eager to find a fix for the engine that's burning hotter and hotter
+                            before it burns her out completely.</p>
+                    </div>
+                </div>
+
+                <div class="personagem">
+                    <img class="imagem" src="./src/imagens/png-shadowheart.png" alt="Personagem Shadowheart">
+                    <div class="conteudo">
+                        <i class="logo"></i>
+                        <h5 class="classe-personagem">CLERIC</h5>
+                        <h2 class="nome-personagem">Shadowheart</h2>
+                        <p class="descricao">A loyal cleric of Shar, goddes of darkness and loss, Shadowheart is the
+                            sole survivor of a holy mission undertaken on the Mistress of the Night's behest. She alone
+                            must deliver a relic of immense power to her coven in Baldur's Gate, while threatened by a
+                            strange new magic that is burgeoning from within. She must complete her mission successfully
+                            to win Shar's love and have her memories restored.</p>
+                    </div>
+                </div>
+
+                <div class="personagem">
+                    <img class="imagem" src="./src/imagens/png-wyll.png" alt="Personagem Wyll">
+                    <div class="conteudo">
+                        <i class="logo"></i>
+                        <h5 class="classe-personagem">WARLOCK</h5>
+                        <h2 class="nome-personagem">Wyll</h2>
+                        <p class="descricao">Wyll made his name as a renowned hero and a monster hunter called Blade of
+                            Frontiers in Baldur's Gate. But to become a living legend, he struck a bargain with a devil
+                            named Mizora and always kept the source of his power a secret. Mizora only asks Wyll to
+                            sacrifice devilish creatures to her, but a cambion's ambitions are ever fickle, and Wyll
+                            wishes to escape the pact before its price grows cruel and consumes his soul for good.</p>
+                    </div>
+                </div>
+            </main>
+
+            <ul class="botoes">
+                <li>
+                    <button class="botao">
+                        <img src="./src/imagens/icon-gale.png" alt="Wizard Gale">
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <img src="./src/imagens/icon-laezel.png" alt="Fighter Lae'zel">
+                    </button>
+                </li>
+                <li>
+                    <button class="botao selecionado">
+                        <img src="./src/imagens/icon-astarion.png" alt="Rogue Astarion">
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <img src="./src/imagens/icon-karlach.png" alt="Barbarian Karlach">
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <img src="./src/imagens/icon-shadowheart.png" alt="Cleric Shadowheart">
+                    </button>
+                </li>
+                <li>
+                    <button class="botao">
+                        <img src="./src/imagens/icon-wyll.png" alt="Warlock Wyll">
+                    </button>
+                </li>
+            </ul>
+
+            <script src="./src/js/script.js"></script>
+
+</body>
+
+</html>
